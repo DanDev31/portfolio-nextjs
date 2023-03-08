@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@300;400;700;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@900&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+@layer base{
+
+    *,
+    ::before,
+    ::after{
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0;
+    }
+    body{
+        font-family: 'Manrope', sans-serif;
+        position: relative;
+        min-height: 100vh;
+    }
+
+    .dark-theme{
+        --bg-1:#121212;
+        --bg-2:#ffffff;
+        --bg-3:#1b1b1d;
+        --primary:#ffffff;
+        --color-moon:#ffffff;
+    }
+
+    .light-theme{
+        --bg-1:#ffffff;
+        --bg-2:#353434;
+        --bg-3:#f9f9f9;
+        --primary:#121212;
+        --color-moon:#071636;
+    }
+}
+
+.logo-gradient{
+    /* background: linear-gradient(to right, #8e2de2, #4a00e0); */
+    background-color: #7c34e1;
+    background-image: linear-gradient(
+        45deg,
+        #3adcd7 16.666%, 
+        #37c8ec 16.666%, 
+        #4852dc 33.333%, 
+        #3945e8 33.333%, 
+        #6244d9 50%, 
+        #562ff0 50%, 
+        #8a4ec3 66.666%, 
+        #9234e9 66.666%, 
+        #b83b8c 83.333%, 
+        #e33866 83.333%);
+
+        background-size: 100%;
+        background-repeat: repeat;
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent; 
+
+        animation: rainbow-text-simple-animation-rev 0.75s ease forwards;
+    }
+    
+.logo-gradient:hover{
+    animation: rainbow-text-simple-animation 0.5s ease-in forwards;
+}
+
+.mobile-icon-rotation{
+    transform: rotateY(180deg);
+}
+
+
+@keyframes rainbow-text-simple-animation-rev {
+    0% {
+        background-size: 650%;
+    }
+    40% {
+        background-size: 650%;
+    }
+    100% {
+        background-size: 100%;
+    }
+}
+
+@keyframes rainbow-text-simple-animation {
+    0% {
+        background-size: 100%;
+    }
+    80% {
+        background-size: 650%;
+    }
+    100% {
+        background-size: 750%;
+    }
+}
