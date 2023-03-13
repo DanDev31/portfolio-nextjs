@@ -104,6 +104,32 @@
         "async": false
       }
     },
+    "(app-client)/./public/photo.jpg": {
+      "": {
+        "id": "(sc_client)/./public/photo.jpg",
+        "name": "",
+        "chunks": [
+          "app/page:app/page"
+        ],
+        "async": false
+      },
+      "*": {
+        "id": "(sc_client)/./public/photo.jpg",
+        "name": "*",
+        "chunks": [
+          "app/page:app/page"
+        ],
+        "async": false
+      },
+      "default": {
+        "id": "(sc_client)/./public/photo.jpg",
+        "name": "default",
+        "chunks": [
+          "app/page:app/page"
+        ],
+        "async": false
+      }
+    },
     "(app-client)/./components/AppContainer.tsx": {
       "": {
         "id": "(sc_client)/./components/AppContainer.tsx",
@@ -192,6 +218,32 @@
       "ThemeProvider": {
         "id": "(sc_client)/./components/ThemeProvider.tsx",
         "name": "ThemeProvider",
+        "chunks": [
+          "app/page:app/page"
+        ],
+        "async": false
+      }
+    },
+    "(app-client)/./node_modules/next/dist/client/image.js": {
+      "": {
+        "id": "(sc_client)/./node_modules/next/dist/client/image.js",
+        "name": "",
+        "chunks": [
+          "app/page:app/page"
+        ],
+        "async": false
+      },
+      "*": {
+        "id": "(sc_client)/./node_modules/next/dist/client/image.js",
+        "name": "*",
+        "chunks": [
+          "app/page:app/page"
+        ],
+        "async": false
+      },
+      "default": {
+        "id": "(sc_client)/./node_modules/next/dist/client/image.js",
+        "name": "default",
         "chunks": [
           "app/page:app/page"
         ],
@@ -439,6 +491,32 @@
       "async": false
     }
   },
+  "C:\\Users\\USUARIO\\Desktop\\Proyectos\\portfolio-nextjs\\public\\photo.jpg": {
+    "": {
+      "id": "(app-client)/./public/photo.jpg",
+      "name": "",
+      "chunks": [
+        "app/page:app/page"
+      ],
+      "async": false
+    },
+    "*": {
+      "id": "(app-client)/./public/photo.jpg",
+      "name": "*",
+      "chunks": [
+        "app/page:app/page"
+      ],
+      "async": false
+    },
+    "default": {
+      "id": "(app-client)/./public/photo.jpg",
+      "name": "default",
+      "chunks": [
+        "app/page:app/page"
+      ],
+      "async": false
+    }
+  },
   "C:\\Users\\USUARIO\\Desktop\\Proyectos\\portfolio-nextjs\\components\\AppContainer.tsx": {
     "": {
       "id": "(app-client)/./components/AppContainer.tsx",
@@ -527,6 +605,58 @@
     "ThemeProvider": {
       "id": "(app-client)/./components/ThemeProvider.tsx",
       "name": "ThemeProvider",
+      "chunks": [
+        "app/page:app/page"
+      ],
+      "async": false
+    }
+  },
+  "C:\\Users\\USUARIO\\Desktop\\Proyectos\\portfolio-nextjs\\node_modules\\next\\dist\\client\\image.js": {
+    "": {
+      "id": "(app-client)/./node_modules/next/dist/client/image.js",
+      "name": "",
+      "chunks": [
+        "app/page:app/page"
+      ],
+      "async": false
+    },
+    "*": {
+      "id": "(app-client)/./node_modules/next/dist/client/image.js",
+      "name": "*",
+      "chunks": [
+        "app/page:app/page"
+      ],
+      "async": false
+    },
+    "default": {
+      "id": "(app-client)/./node_modules/next/dist/client/image.js",
+      "name": "default",
+      "chunks": [
+        "app/page:app/page"
+      ],
+      "async": false
+    }
+  },
+  "C:\\Users\\USUARIO\\Desktop\\Proyectos\\portfolio-nextjs\\node_modules\\next\\dist\\esm\\client\\image.js": {
+    "": {
+      "id": "(app-client)/./node_modules/next/dist/client/image.js",
+      "name": "",
+      "chunks": [
+        "app/page:app/page"
+      ],
+      "async": false
+    },
+    "*": {
+      "id": "(app-client)/./node_modules/next/dist/client/image.js",
+      "name": "*",
+      "chunks": [
+        "app/page:app/page"
+      ],
+      "async": false
+    },
+    "default": {
+      "id": "(app-client)/./node_modules/next/dist/client/image.js",
+      "name": "default",
       "chunks": [
         "app/page:app/page"
       ],

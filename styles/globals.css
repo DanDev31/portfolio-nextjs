@@ -70,6 +70,25 @@
     transform: rotateY(180deg);
 }
 
+.grid-about{
+    display: grid;
+    grid-template-columns: 1fr;
+    place-items: center;
+    gap: 40px;
+}
+
+.grid-projects{
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    grid-gap: 40px;
+}
+
+@media (min-width:768px){
+    .grid-about{
+        grid-template-columns: 3fr 2fr;
+    }
+}
+
 
 @keyframes rainbow-text-simple-animation-rev {
     0% {
