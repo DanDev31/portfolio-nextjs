@@ -23,7 +23,7 @@ export const Projects = () => {
                   Lorem, ipsum dolor sit amet consectetur adipisicing elit.
                   Architecto, molestiae!
                 </p>
-                <ul>
+                <ul className="flex items-center justify-around">
                   <li>React</li>
                   <li>Node</li>
                   <li>Sass</li>
