@@ -34,6 +34,21 @@ export const Skills = () => {
       name: "javascript",
     },
     {
+      icon: ts,
+      bg: "bg-blue-200",
+      name: "typescript",
+    },
+    {
+      icon: react,
+      bg: "bg-blue-500",
+      name: "react",
+    },
+    {
+      icon: redux,
+      bg: "bg-violet-400",
+      name: "redux",
+    },
+    {
       icon: next,
       bg: "bg-gray-100",
       name: "next js",
@@ -44,28 +59,13 @@ export const Skills = () => {
       name: "node js",
     },
     {
-      icon: redux,
-      bg: "bg-violet-400",
-      name: "redux",
-    },
-    {
-      icon: react,
-      bg: "bg-blue-500",
-      name: "react",
-    },
-    {
       icon: sass,
       bg: "bg-pink-300",
       name: "sass",
     },
-    {
-      icon: ts,
-      bg: "bg-blue-200",
-      name: "typescript",
-    },
   ];
   return (
-    <section className="h-screen">
+    <section id="skills" className="my-10">
       <div className="flexitems-center justify-between gap-3 mb-[60px]">
         <h2 className="font-semibold text-[2em] font-monserrat">
           Skills & Experience
@@ -81,7 +81,7 @@ export const Skills = () => {
                 key={i}
                 src={icon.icon}
                 alt="skill icon"
-                className={`${icon.bg} max-w-[80px] rounded-full p-4 flex items-center justify-center`}
+                className={`${icon.bg} w-[70px] rounded-full p-4 flex items-center justify-center`}
               />
               <span className="uppercase text-xs">{icon.name}</span>
             </div>
