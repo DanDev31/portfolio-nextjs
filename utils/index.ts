@@ -3,7 +3,6 @@ import projectTwo from "../public/project_2.png";
 import projectThree from "../public/project_3.png";
 import projectFour from "../public/project_4.png";
 
-
 export const projectsData = [
     {
         title:"Dogs App",
