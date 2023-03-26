@@ -639,6 +639,12 @@ p{
 .h-screen{
   height: 100vh;
 }
+.h-\[80vh\]{
+  height: 80vh;
+}
+.h-\[90vh\]{
+  height: 90vh;
+}
 .w-1\/2{
   width: 50%;
 }
@@ -902,6 +908,15 @@ p{
 }
 .pt-1{
   padding-top: 0.25rem;
+}
+.pb-\[100px\]{
+  padding-bottom: 100px;
+}
+.pt-\[60px\]{
+  padding-top: 60px;
+}
+.pt-\[40px\]{
+  padding-top: 40px;
 }
 .text-left{
   text-align: left;
@@ -1279,6 +1294,10 @@ p{
 
   .lg\:mb-\[80px\]{
     margin-bottom: 80px;
+  }
+
+  .lg\:h-screen{
+    height: 100vh;
   }
 
   .lg\:w-\[40\%\]{

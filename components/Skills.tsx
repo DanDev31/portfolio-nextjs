@@ -74,7 +74,7 @@ export const Skills = () => {
     <section id="skills" className="py-[80px]">
       <div className="mb-10 lg:mb-[60px] w-full">
         <h2 className="font-semibold text-[24px] font-poppins line w-fit mx-auto lg:mx-0 pt-1 relative">
-          Skills & Experience
+          Skills & Experience.
         </h2>
       </div>
 

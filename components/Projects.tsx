@@ -12,7 +12,7 @@ export const Projects = () => {
     >
       <div className="mb-[45px] lg:mb-[80px] w-full">
         <h2 className="font-semibold text-[24px] font-poppins line w-fit mx-auto lg:mx-0 pt-1 relative">
-          My work
+          My work.
         </h2>
       </div>
 

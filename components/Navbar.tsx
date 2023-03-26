@@ -83,16 +83,16 @@ export const Navbar = () => {
           shadow-2xl h-screen py-5 items-center justify-center gap-10 transition-all md:static md:flex-row md:h-fit md:w-fit md:bg-inherit md:shadow-none`}
         >
           <ul className="flex flex-col md:flex-row items-center gap-10 text-primary text-sm font-semibold">
-            <li onClick={() => handleMobileMenu()}>
+            <li onClick={mobile ? () => handleMobileMenu() : undefined}>
               <a href="#about">About</a>
             </li>
-            <li onClick={() => handleMobileMenu()}>
+            <li onClick={mobile ? () => handleMobileMenu() : undefined}>
               <a href="#work">Work</a>
             </li>
-            <li onClick={() => handleMobileMenu()}>
+            <li onClick={mobile ? () => handleMobileMenu() : undefined}>
               <a href="#contact">Contact</a>
             </li>
-            <li onClick={() => handleMobileMenu()}>
+            <li onClick={mobile ? () => handleMobileMenu() : undefined}>
               <a href="/cv.pdf" target="_blank">
                 Resume
               </a>

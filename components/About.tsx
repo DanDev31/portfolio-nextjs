@@ -6,12 +6,12 @@ export const About = () => {
   return (
     <section
       id="about"
-      className="flex items-center justify-center mx-auto py-[100px]"
+      className="flex items-center justify-center mx-auto pb-[100px]"
     >
       <div className="grid-about lg:w-[80%] md:w-[95%]">
         <div>
           <div className="flex items-center justify-between gap-3">
-            <h2 className="font-semibold text-[24px] font-poppins">About Me</h2>
+            <h2 className="font-semibold text-[24px] font-poppins">About me</h2>
             <div className="block grow h-[1px] bg-main-reverse"></div>
           </div>
 
