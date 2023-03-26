@@ -8,6 +8,7 @@ import node from "../public/node.png";
 import redux from "../public/redux.png";
 import react from "../public/react.png";
 import sass from "../public/sass.png";
+import tailwind from "../public/tailwind.png";
 import ts from "../public/typescript.png";
 
 type Icons = {
@@ -40,7 +41,7 @@ export const Skills = () => {
     },
     {
       icon: react,
-      bg: "bg-blue-500/[0.2]",
+      bg: "bg-sky-400/[0.2]",
       name: "react",
     },
     {
@@ -50,7 +51,7 @@ export const Skills = () => {
     },
     {
       icon: next,
-      bg: "bg-gray-100/[0.2]",
+      bg: "bg-gray-300/[0.2]",
       name: "next js",
     },
     {
@@ -62,6 +63,11 @@ export const Skills = () => {
       icon: sass,
       bg: "bg-pink-300/[0.2]",
       name: "sass",
+    },
+    {
+      icon: tailwind,
+      bg: "bg-teal-200/[0.2]",
+      name: "Tailwind",
     },
   ];
   return (

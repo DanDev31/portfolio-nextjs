@@ -442,6 +442,32 @@
         "async": false
       }
     },
+    "(app-client)/./public/tailwind.png": {
+      "": {
+        "id": "(sc_client)/./public/tailwind.png",
+        "name": "",
+        "chunks": [
+          "app/page:app/page"
+        ],
+        "async": false
+      },
+      "*": {
+        "id": "(sc_client)/./public/tailwind.png",
+        "name": "*",
+        "chunks": [
+          "app/page:app/page"
+        ],
+        "async": false
+      },
+      "default": {
+        "id": "(sc_client)/./public/tailwind.png",
+        "name": "default",
+        "chunks": [
+          "app/page:app/page"
+        ],
+        "async": false
+      }
+    },
     "(app-client)/./public/typescript.png": {
       "": {
         "id": "(sc_client)/./public/typescript.png",
@@ -1212,6 +1238,32 @@
     },
     "default": {
       "id": "(app-client)/./public/sass.png",
+      "name": "default",
+      "chunks": [
+        "app/page:app/page"
+      ],
+      "async": false
+    }
+  },
+  "C:\\Users\\USUARIO\\Desktop\\Proyectos\\portfolio-nextjs\\public\\tailwind.png": {
+    "": {
+      "id": "(app-client)/./public/tailwind.png",
+      "name": "",
+      "chunks": [
+        "app/page:app/page"
+      ],
+      "async": false
+    },
+    "*": {
+      "id": "(app-client)/./public/tailwind.png",
+      "name": "*",
+      "chunks": [
+        "app/page:app/page"
+      ],
+      "async": false
+    },
+    "default": {
+      "id": "(app-client)/./public/tailwind.png",
       "name": "default",
       "chunks": [
         "app/page:app/page"
