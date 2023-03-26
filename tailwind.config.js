@@ -17,7 +17,7 @@ module.exports = {
         primary: "var(--bg-2)",
       },
       fontFamily: {
-        monserrat: ["Montserrat", "sans-serif"],
+        poppins: ["Poppins", "sans-serif"],
       },
       textColor: {
         primary: "var(--primary)",

@@ -1,5 +1,4 @@
 "use client";
-import Link from "next/link";
 import { useState, useEffect, useContext, Fragment } from "react";
 import { BsFillMoonFill, BsFillSunFill } from "react-icons/bs";
 import { AppContext } from "./AppContainer";
@@ -44,23 +43,37 @@ export const Navbar = () => {
   return (
     <Fragment>
       <nav
-        className={`fixed top-0 left-0 flex items-center justify-between w-full px-10 py-5 bg-transparent text-white z-40 ${
+        className={`fixed top-0 left-0 flex items-center justify-between w-full px-10 py-4 bg-transparent text-white z-40 ${
           navbarblur ? "backdrop-blur-md" : ""
         }`}
       >
         <div>
-          <h3 className="logo-gradient font-extrabold text-[1.5rem] font-monserrat">
-            DANDEV
-          </h3>
+          <a href="#hero">
+            <h3 className="logo-gradient font-bold text-[1.5rem] font-poppins">
+              DANDEV
+            </h3>
+          </a>
         </div>
 
         <div
-          className={`block cursor-pointer space-y-2 mobile-icon-rotation z-50 md:hidden`}
+          className={`block cursor-pointer space-y-1 mobile-icon-rotation z-50 relative md:hidden`}
           onClick={() => handleMobileMenu()}
         >
-          <span className="bg-theme-switch w-7 h-0.5 block"></span>
-          <span className="bg-theme-switch w-5 h-0.5 block"></span>
-          <span className="bg-theme-switch w-3 h-0.5 block"></span>
+          <span
+            className={`bg-theme-switch w-7 h-0.5 block transition-all ${
+              mobile ? "rotate-45" : "rotate-0"
+            }`}
+          ></span>
+          <span
+            className={`bg-theme-switch w-5 h-0.5 block transition-all ${
+              mobile ? "-rotate-45 w-7 absolute -top-[3.6px]" : "rotate-0"
+            }`}
+          ></span>
+          <span
+            className={`bg-theme-switch w-3 h-0.5 block transition-all ${
+              mobile ? "opacity-0" : "opacity-1"
+            }`}
+          ></span>
         </div>
 
         <div
@@ -70,17 +83,21 @@ export const Navbar = () => {
           shadow-2xl h-screen py-5 items-center justify-center gap-10 transition-all md:static md:flex-row md:h-fit md:w-fit md:bg-inherit md:shadow-none`}
         >
           <ul className="flex flex-col md:flex-row items-center gap-10 text-primary text-sm font-semibold">
-            <li>
-              <Link href="/">About</Link>
+            <li onClick={() => handleMobileMenu()}>
+              <a href="#about">About</a>
             </li>
-            <li>
-              <Link href="/">Work</Link>
+            <li onClick={() => handleMobileMenu()}>
+              <a href="#work">Work</a>
             </li>
-            <li>
-              <Link href="/">Contact</Link>
+            <li onClick={() => handleMobileMenu()}>
+              <a href="#contact">Contact</a>
+            </li>
+            <li onClick={() => handleMobileMenu()}>
+              <a href="/cv.pdf" target="_blank">
+                Resume
+              </a>
             </li>
           </ul>
-
           <div className="border-primary border-2 flex items-center justify-between gap-3 cursor-pointer relative p-1 rounded-[18px] w-[55px]">
             <BsFillMoonFill
               className="text-moon"

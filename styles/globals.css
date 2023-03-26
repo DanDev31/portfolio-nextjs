@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Manrope:wght@300;400;700;800&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap');
 
 @tailwind base;
 @tailwind components;
@@ -15,10 +15,27 @@
         margin: 0;
         padding: 0;
     }
+
+    *{
+
+        scroll-behavior: smooth;
+    }
+
     body{
         font-family: 'Manrope', sans-serif;
         position: relative;
         min-height: 100vh;
+        line-height: 1.7;
+    }
+
+    img{
+        display: block;
+        width: 100%;
+        height: 100%;
+    }
+
+    p{
+        font-size: 15px;
     }
 
     .dark-theme{
@@ -83,11 +100,81 @@
     grid-gap: 40px;
 }
 
+.line::before{
+    background-color: var(--bg-2);
+    display: inline-block;
+    content: "";
+    width: 40px;
+    height: 3px;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.form-button{
+    position: relative;
+    display: flex;
+    align-items:center;
+    justify-content:center;
+    padding: 5px 20px;
+    font-size: 16px;
+    font-weight: bold;
+    color: #fff;
+    border: 2px solid #6244d9;
+    overflow: hidden;
+    cursor: pointer;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.form-button::before {
+    content: "";
+    position: absolute;
+    width: 200px;
+    height: 200px;
+    background-color: #6244d9;
+    border-radius: 50%;
+    transform:scale(0);
+    transition: all 0.3s ease-in-out;
+    z-index:1;
+  }
+  
+  .form-button span{
+    color: #6244d9;
+    display:block;
+    z-index:2;
+  }
+  
+  .form-button:hover span{
+      color: white;
+  }
+
+  .form-button:hover::before {
+    transform:scale(3);
+  }
+
+
 @media (min-width:768px){
     .grid-about{
         grid-template-columns: 3fr 2fr;
     }
 }
+
+/* Animations */
+
+.fade-in {
+	-webkit-animation: fade-in 1.2s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
+	        animation: fade-in 1.2s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
+}
+
+@keyframes fade-in {
+    0% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
 
 
 @keyframes rainbow-text-simple-animation-rev {

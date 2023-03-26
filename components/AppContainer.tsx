@@ -22,7 +22,7 @@ export const AppContainer = ({ children }: AppProps) => {
 
   return (
     <main
-      className={`${theme} relative z-10 bg-main text-primary px-[25px] md:px-[200px] `}
+      className={`${theme} relative z-10 bg-main text-primary px-[40px] md:px-[200px] xl:px-[350px] `}
     >
       <AppContext.Provider value={{ setIsBlur: setBlur }}>
         {children}

@@ -468,6 +468,32 @@
         "async": false
       }
     },
+    "(app-client)/./components/About.tsx": {
+      "": {
+        "id": "(sc_client)/./components/About.tsx",
+        "name": "",
+        "chunks": [
+          "app/page:app/page"
+        ],
+        "async": false
+      },
+      "*": {
+        "id": "(sc_client)/./components/About.tsx",
+        "name": "*",
+        "chunks": [
+          "app/page:app/page"
+        ],
+        "async": false
+      },
+      "About": {
+        "id": "(sc_client)/./components/About.tsx",
+        "name": "About",
+        "chunks": [
+          "app/page:app/page"
+        ],
+        "async": false
+      }
+    },
     "(app-client)/./components/AppContainer.tsx": {
       "": {
         "id": "(sc_client)/./components/AppContainer.tsx",
@@ -496,6 +522,32 @@
       "AppContext": {
         "id": "(sc_client)/./components/AppContainer.tsx",
         "name": "AppContext",
+        "chunks": [
+          "app/page:app/page"
+        ],
+        "async": false
+      }
+    },
+    "(app-client)/./components/Contact.tsx": {
+      "": {
+        "id": "(sc_client)/./components/Contact.tsx",
+        "name": "",
+        "chunks": [
+          "app/page:app/page"
+        ],
+        "async": false
+      },
+      "*": {
+        "id": "(sc_client)/./components/Contact.tsx",
+        "name": "*",
+        "chunks": [
+          "app/page:app/page"
+        ],
+        "async": false
+      },
+      "Contact": {
+        "id": "(sc_client)/./components/Contact.tsx",
+        "name": "Contact",
         "chunks": [
           "app/page:app/page"
         ],
@@ -1193,6 +1245,32 @@
       "async": false
     }
   },
+  "C:\\Users\\USUARIO\\Desktop\\Proyectos\\portfolio-nextjs\\components\\About.tsx": {
+    "": {
+      "id": "(app-client)/./components/About.tsx",
+      "name": "",
+      "chunks": [
+        "app/page:app/page"
+      ],
+      "async": false
+    },
+    "*": {
+      "id": "(app-client)/./components/About.tsx",
+      "name": "*",
+      "chunks": [
+        "app/page:app/page"
+      ],
+      "async": false
+    },
+    "About": {
+      "id": "(app-client)/./components/About.tsx",
+      "name": "About",
+      "chunks": [
+        "app/page:app/page"
+      ],
+      "async": false
+    }
+  },
   "C:\\Users\\USUARIO\\Desktop\\Proyectos\\portfolio-nextjs\\components\\AppContainer.tsx": {
     "": {
       "id": "(app-client)/./components/AppContainer.tsx",
@@ -1221,6 +1299,32 @@
     "AppContext": {
       "id": "(app-client)/./components/AppContainer.tsx",
       "name": "AppContext",
+      "chunks": [
+        "app/page:app/page"
+      ],
+      "async": false
+    }
+  },
+  "C:\\Users\\USUARIO\\Desktop\\Proyectos\\portfolio-nextjs\\components\\Contact.tsx": {
+    "": {
+      "id": "(app-client)/./components/Contact.tsx",
+      "name": "",
+      "chunks": [
+        "app/page:app/page"
+      ],
+      "async": false
+    },
+    "*": {
+      "id": "(app-client)/./components/Contact.tsx",
+      "name": "*",
+      "chunks": [
+        "app/page:app/page"
+      ],
+      "async": false
+    },
+    "Contact": {
+      "id": "(app-client)/./components/Contact.tsx",
+      "name": "Contact",
       "chunks": [
         "app/page:app/page"
       ],

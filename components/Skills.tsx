@@ -20,57 +20,56 @@ export const Skills = () => {
   const icons: Icons[] = [
     {
       icon: html,
-      bg: "bg-orange-300",
+      bg: "bg-orange-300/[0.2]",
       name: "html",
     },
     {
       icon: css,
-      bg: "bg-sky-300",
+      bg: "bg-sky-300/[0.2]",
       name: "css",
     },
     {
       icon: javascript,
-      bg: "bg-amber-200",
+      bg: "bg-amber-200/[0.2]",
       name: "javascript",
     },
     {
       icon: ts,
-      bg: "bg-blue-200",
+      bg: "bg-blue-200/[0.2]",
       name: "typescript",
     },
     {
       icon: react,
-      bg: "bg-blue-500",
+      bg: "bg-blue-500/[0.2]",
       name: "react",
     },
     {
       icon: redux,
-      bg: "bg-violet-400",
+      bg: "bg-violet-400/[0.2]",
       name: "redux",
     },
     {
       icon: next,
-      bg: "bg-gray-100",
+      bg: "bg-gray-100/[0.2]",
       name: "next js",
     },
     {
       icon: node,
-      bg: "bg-green-300",
+      bg: "bg-green-300/[0.2]",
       name: "node js",
     },
     {
       icon: sass,
-      bg: "bg-pink-300",
+      bg: "bg-pink-300/[0.2]",
       name: "sass",
     },
   ];
   return (
-    <section id="skills" className="my-10">
-      <div className="flexitems-center justify-between gap-3 mb-[60px]">
-        <h2 className="font-semibold text-[2em] font-monserrat">
+    <section id="skills" className="py-[80px]">
+      <div className="mb-10 lg:mb-[60px] w-full">
+        <h2 className="font-semibold text-[24px] font-poppins line w-fit mx-auto lg:mx-0 pt-1 relative">
           Skills & Experience
         </h2>
-        <div className="block grow h-[1px] bg-main-reverse"></div>
       </div>
 
       <div className="flex flex-col gap-10 lg:flex-row md:justify-between">
@@ -81,7 +80,7 @@ export const Skills = () => {
                 key={i}
                 src={icon.icon}
                 alt="skill icon"
-                className={`${icon.bg} w-[70px] rounded-full p-4 flex items-center justify-center`}
+                className={`${icon.bg} w-[70px] rounded-full p-4 flex items-center justify-center hover:-translate-y-2 transition-all`}
               />
               <span className="uppercase text-xs">{icon.name}</span>
             </div>
@@ -90,23 +89,25 @@ export const Skills = () => {
         <div className="grow">
           <div className="flex flex-col gap-10 max-w-[400px] mx-auto">
             <div className="flex gap-8">
-              <span className="text-indigo-700 font-bold w-1/2">
+              <span className="text-neutral-500 text-[18px] font-extrabold w-1/2">
                 2022 - present
               </span>
               <div className="flex flex-col gap-2">
-                <p className="text-slate-400 text-xs">
+                <p className="text-slate-400 text-sm">
                   Full Stack Web developer
                 </p>
-                <span className="text-slate-500 text-sm uppercase">Master</span>
+                <span className="text-slate-500 text-sm uppercase font-semibold">
+                  Master
+                </span>
               </div>
             </div>
             <div className="flex gap-8">
-              <span className="text-indigo-700 font-bold w-1/2">
+              <span className="text-neutral-500 text-[18px] font-extrabold w-1/2">
                 2019 - 2021
               </span>
               <div className="flex flex-col gap-2">
-                <p className="text-slate-400 text-xs">Personal Projects</p>
-                <span className="text-slate-500 text-sm uppercase">
+                <p className="text-slate-400 text-sm">Personal Projects</p>
+                <span className="text-slate-500 text-sm uppercase font-semibold">
                   Freelance
                 </span>
               </div>
