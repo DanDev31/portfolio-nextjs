@@ -364,6 +364,32 @@
         "async": false
       }
     },
+    "(app-client)/./public/project_5.png": {
+      "": {
+        "id": "(sc_client)/./public/project_5.png",
+        "name": "",
+        "chunks": [
+          "app/page:app/page"
+        ],
+        "async": false
+      },
+      "*": {
+        "id": "(sc_client)/./public/project_5.png",
+        "name": "*",
+        "chunks": [
+          "app/page:app/page"
+        ],
+        "async": false
+      },
+      "default": {
+        "id": "(sc_client)/./public/project_5.png",
+        "name": "default",
+        "chunks": [
+          "app/page:app/page"
+        ],
+        "async": false
+      }
+    },
     "(app-client)/./public/react.png": {
       "": {
         "id": "(sc_client)/./public/react.png",
@@ -1160,6 +1186,32 @@
     },
     "default": {
       "id": "(app-client)/./public/project_4.png",
+      "name": "default",
+      "chunks": [
+        "app/page:app/page"
+      ],
+      "async": false
+    }
+  },
+  "C:\\Users\\USUARIO\\Desktop\\Proyectos\\portfolio-nextjs\\public\\project_5.png": {
+    "": {
+      "id": "(app-client)/./public/project_5.png",
+      "name": "",
+      "chunks": [
+        "app/page:app/page"
+      ],
+      "async": false
+    },
+    "*": {
+      "id": "(app-client)/./public/project_5.png",
+      "name": "*",
+      "chunks": [
+        "app/page:app/page"
+      ],
+      "async": false
+    },
+    "default": {
+      "id": "(app-client)/./public/project_5.png",
       "name": "default",
       "chunks": [
         "app/page:app/page"

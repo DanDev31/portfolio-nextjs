@@ -2,6 +2,8 @@ import projectOne from "../public/project_1.png";
 import projectTwo from "../public/project_2.png";
 import projectThree from "../public/project_3.png";
 import projectFour from "../public/project_4.png";
+import projectFive from "../public/project_5.png";
+
 
 export const projectsData = [
     {
@@ -35,6 +37,14 @@ export const projectsData = [
         site:"https://ecommerce-app-psi-henna.vercel.app/",
         repo:"https://github.com/DanDev31/ecommerce-app",
         image: projectFour
+    },
+    {
+        title:"House Sales Agency",
+        description:"A beautiful, totally responsive web site with animations and well done designs.",
+        stack:["HTML", "CSS", "Javascript", "Boostrap"],
+        site:"https://house-sale-agency.vercel.app/index.html",
+        repo:"https://github.com/DanDev31/house-sale-agency",
+        image: projectFive
     }
 
 ]
