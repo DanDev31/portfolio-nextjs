@@ -30,7 +30,7 @@ export const Contact = () => {
     <section id="contact" className="py-[100px]">
       <div className="mb-[45px] lg:mb-[60px] w-full">
         <h2 className="font-semibold text-[24px] font-poppins line w-fit mx-auto pt-1 relative">
-          Let's get in tounch.
+          Let's get in touch.
         </h2>
       </div>
 
